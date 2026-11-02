@@ -1,34 +1,39 @@
-# Road Rush — Hindari Mobil
 
-Game browser sederhana menggunakan HTML, CSS, JavaScript, dan Phaser 3.
+## Deskripsi
+Road Rush adalah game 2D sederhana dengan perspektif Top-Down View. Pemain mengendalikan sebuah mobil dan harus menghindari kendaraan lain yang muncul dari arah atas jalan.
 
-## Cara menjalankan
-1. Ekstrak folder game.
-2. Buka folder `Road_Rush_Web_Game` di VS Code.
-3. Jalankan `index.html` menggunakan Live Server.
+Tujuan permainan adalah bertahan selama mungkin dan mendapatkan skor tertinggi tanpa menabrak mobil musuh.
 
-Game juga dapat dijalankan melalui server web statis seperti GitHub Pages atau itch.io.
+## 🎮 Kontrol Permainan
+| Tombol | Fungsi |
+|---|---|
+| W | Bergerak ke atas |
+| A | Bergerak ke kiri |
+| S | Bergerak ke bawah |
+| D | Bergerak ke kanan |
+| SPACE | Mengulang permainan setelah Game Over |
 
-## Kontrol
-- **W**: bergerak ke atas
-- **A**: bergerak ke kiri
-- **S**: bergerak ke bawah
-- **D**: bergerak ke kanan
-- **Spasi**: mulai ulang setelah Game Over
+## 📋 Aturan Permainan
+- Hindari tabrakan dengan mobil musuh.
+- Skor bertambah selama pemain bertahan.
+- Kecepatan mobil musuh meningkat seiring waktu.
+- Mobil musuh muncul secara berkala.
+- Tabrakan menyebabkan Game Over.
 
-## Isi folder
-- `index.html`: halaman utama.
-- `style.css`: tampilan halaman.
-- `game.js`: logika permainan.
-- `assets/`: tempat menyimpan aset tambahan jika nanti diperlukan.
-
-## Teknologi
+## 🛠️ Teknologi
 - HTML5
 - CSS3
 - JavaScript
-- Phaser 3.80.1 (dimuat dari jsDelivr CDN)
+- Phaser 3
 
-## Catatan publikasi
-Koneksi internet diperlukan saat game dimuat karena Phaser diambil dari CDN.
-Untuk itch.io, unggah ZIP yang berisi `index.html`, `style.css`, `game.js`, dan folder `assets`.
-Pastikan `index.html` berada langsung di akar ZIP, bukan di dalam folder pembungkus tambahan.
+## ▶️ Cara Menjalankan
+1. Unduh atau clone repository ini.
+2. Buka folder project.
+3. Jalankan `index.html` melalui browser atau gunakan Live Server di Visual Studio Code.
+4. Mulai bermain!
+
+## 🌐 Play Game
+[Mainkan Road Rush di GitHub Pages](https://dziau2024.github.io/Star-Catcher-Game/)
+
+## 👨‍💻 Pengembang
+Dibuat sebagai proyek game 2D untuk tugas UTS.
